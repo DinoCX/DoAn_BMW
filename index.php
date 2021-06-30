@@ -27,7 +27,8 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
 
       <title>LAPTOP STORE</title>
       <link href="/assets/image/favicon-16x16.png" rel="icon">
-
+      <!--Icon search-->
+      <link rel="stylesheet" href="/assets/vendor/fontawesome/css/all.min.css" >
       <!-- Google Fonts -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -84,7 +85,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
                               </ul>
                               <form class="d-flex">
                                 <input class="form-control me-2" type="search" placeholder="Type something here" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Search</button>
+                                <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
                               </form>
                             </div>
                   </div>
