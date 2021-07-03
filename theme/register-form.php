@@ -46,8 +46,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
       <title>LAPTOP STORE</title>
       <link href="/assets/image/favicon-16x16.png" rel="icon">
  <!--valid confirm password-->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"
+      <script src="/assets/vendor/jquery/jquery.min.js"></script>
+      <script src="/assets/vendor/jquery/jquery.validate.min.js"
             type="text/javascript"></script>
             
       <script>
